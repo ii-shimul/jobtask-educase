@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const SignIn = () => {
 	return (
-		<div className="relative w-full h-full min-h-[812px]">
+		<div className="relative w-full h-full min-h-[812px] ">
 			<div className="absolute top-[40px]">
 				<h1 className="font-semibold text-[28px]">
 					Signin to your

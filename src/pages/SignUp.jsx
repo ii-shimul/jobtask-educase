@@ -1,10 +1,8 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 const SignUp = () => {
-	const [name, setName] = useState("");
 	return (
-		<div className="relative w-full h-full min-h-[812px]">
+		<div className="relative w-full h-full min-h-[812px] ">
 			<div className="absolute top-[40px]">
 				<h1 className="font-semibold text-[28px]">
 					Create your
@@ -27,9 +25,6 @@ const SignUp = () => {
 								type="text"
 								id="name"
 								placeholder="Enter your full name"
-								onChange={(e) => {
-									setName(e.target.value);
-								}}
 								className="w-full border-[1.5px] border-gray-300 rounded-md px-4 py-2.5 placeholder-gray-400 focus:outline-none focus:ring-1 focus:ring-purple-500"
 							/>
 						</div>
